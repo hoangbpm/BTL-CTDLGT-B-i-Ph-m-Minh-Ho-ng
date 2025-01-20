@@ -38,5 +38,5 @@ Output:
 Test case 1: true
 Test case 2: false
 ```
-[!Test trên trang Image ](Images/Test_techiedelight.png)
-[!Test riêng](Images/Test.png)
+![Test trên trang https://www.techiedelight.com/?problem=IsReachableVertex](Images/Test_techiedelight.png)
+![Test riêng](Images/Test.png)
