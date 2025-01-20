@@ -37,5 +37,5 @@ Output:
 
 Test case 1: true
 Test case 2: false
-![Test trên trang Images ](Images/Test techiedelight.png)
+![Test trên trang Image ](Images\Test_techiedelight.png)
 ![Test riêng](Images/Test.png)
