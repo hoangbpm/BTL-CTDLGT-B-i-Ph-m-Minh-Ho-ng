@@ -25,9 +25,9 @@ Giải thuật này kiểm tra xem có tồn tại đường đi từ một đ�
 
 **Input**:
 
-Đồ thị với 6 đỉnh, các cạnh:
 
 ```text
+Đồ thị với 6 đỉnh, các cạnh:
 [(0, 1), (1, 2), (2, 3), (3, 5), (4, 1)]
 Test case 1: src = 4, dest = 5
 
@@ -40,3 +40,5 @@ Test case 2: false
 ```
 ![Test trên trang https://www.techiedelight.com/?problem=IsReachableVertex](Images/Test_techiedelight.png)
 ![Test riêng](Images/Test.png)
+
+Link trong 500 bài code: https://www.techiedelight.com/2-vertex-connectivity-graph/
