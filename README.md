@@ -38,7 +38,11 @@ Output:
 Test case 1: true
 Test case 2: false
 ```
+### Test trên trang Techiedelight
+
 ![Test trên trang https://www.techiedelight.com/?problem=IsReachableVertex](Images/Test_techiedelight.png)
+### Code C++ test 
+
 ![Test riêng](Images/Test.png)
 
 Link trong 500 bài code: https://www.techiedelight.com/2-vertex-connectivity-graph/
