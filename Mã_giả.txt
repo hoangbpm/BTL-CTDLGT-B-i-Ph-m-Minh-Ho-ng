@@ -1,0 +1,20 @@
+Hàm CoDuongDi(DoThi, src, dest):
+    Đầu vào:
+        - DoThi: ma trận kề của đồ thị
+        - src: đỉnh bắt đầu
+        - dest: đỉnh kết thúc
+    Đầu ra:
+        - true nếu tồn tại đường đi từ src đến dest
+        - false nếu không tồn tại đường đi
+
+1. Tạo mảng daTham kích thước N (số đỉnh trong đồ thị), tất cả phần tử khởi tạo là false.
+2. Tạo ngăn xếp nganXep và đưa src vào nganXep.
+3. Trong khi nganXep không rỗng:
+    3.1. Lấy đỉnh dinhHienTai từ trên cùng của nganXep.
+    3.2. Nếu dinhHienTai == dest:
+        - Trả về true (tìm thấy đường đi).
+    3.3. Đánh dấu daTham[dinhHienTai] = true.
+    3.4. Với mỗi đỉnh dinhKe trong đồ thị:
+        - Nếu tồn tại cạnh từ dinhHienTai đến dinhKe (DoThi[dinhHienTai][dinhKe] == 1) và daTham[dinhKe] == false:
+            - Thêm dinhKe vào nganXep.
+4. Kết thúc vòng lặp, trả về false (không tồn tại đường đi).
